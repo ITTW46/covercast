@@ -123,7 +123,7 @@ Suitable for YouTube, Twitter/X, Bilibili, and most other platforms.
 
 ## Language switcher
 
-Top-right of the window. Choose Thai / English / 日本語 / 中文. The choice is saved to `~/.covercast_config.json` and restored on next launch. (If you used the old "Clip Maker" build, your preference is migrated automatically on first launch.)
+Top-right of the window. Choose Thai / English / 日本語 / 中文. The choice is saved to `~/.covercast_config.json` and restored on next launch. 
 
 ---
 
