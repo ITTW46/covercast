@@ -1,0 +1,30 @@
+# CoverCast - Python dependencies
+#
+# No pip packages are required. CoverCast uses only the Python
+# standard library (tkinter, subprocess, json, dataclasses, ...).
+#
+# `pip install -r requirements.txt` is a no-op and will succeed.
+#
+# ---------------------------------------------------------------------
+# System requirements (NOT installable via pip):
+# ---------------------------------------------------------------------
+#
+#   - Python 3.10 or newer  (the code uses `X | Y` union type hints)
+#
+#   - ffmpeg + ffprobe in PATH
+#       Windows:  winget install Gyan.FFmpeg
+#       macOS:    brew install ffmpeg
+#       Linux:    sudo apt install ffmpeg       (Debian/Ubuntu)
+#                 sudo dnf install ffmpeg       (Fedora)
+#                 sudo pacman -S ffmpeg         (Arch)
+#
+#   - Tkinter (the GUI toolkit)
+#       Windows / macOS: bundled with the python.org installer
+#       Linux: sudo apt install python3-tk      (Debian/Ubuntu)
+#              sudo dnf install python3-tkinter (Fedora)
+#
+# Verify the system tools after install:
+#       python --version      # >= 3.10
+#       ffmpeg  -version
+#       ffprobe -version
+#       python -c "import tkinter; tkinter._test()"
